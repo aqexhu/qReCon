@@ -31,10 +31,20 @@ void relay_test()
     }
 }
 
+void deinit_gpios()
+{
+    for (short i = 0; i < RELAY_NUM; i++)
+    {
+        gpiod_line_release(relay[i]);
+    }
+    gpiod_chip_close(chip);
+}
+
 void init_gpios()
 {
     const char *chipname = "gpiochip0";
     chip = gpiod_chip_open_by_name(chipname);
+    printf("Chip name: %s - label: %s - %d lines\n", gpiod_chip_name(chip), gpiod_chip_label(chip), gpiod_chip_num_lines(chip));
     if (!chip)
     {
         perror("Open chip failed\n");
@@ -44,6 +54,7 @@ void init_gpios()
     for (short i = 0; i < RELAY_NUM; i++)
     {
         relay[i] = gpiod_chip_get_line(chip, relay_pins[i]);
+        gpiod_line_request_output(relay[i], "Relay_test", 0);
     }
 }
 
@@ -51,5 +62,6 @@ int main(int argc, char *argv[])
 {
     init_gpios();
     relay_test();
+    deinit_gpios();
     return 0;
 }
