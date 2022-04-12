@@ -1,6 +1,6 @@
 # AQEX qReCon superior quality 4 channel relay module in a Raspberry Pi HAT form factor
 ## Software guard for safe shutdown of the Raspberry PI
-![alt text](https://github.com/aqexhu/qReCon/blob/master/qReCon_trans_small_v1.png?raw=true)
+![alt text](https://github.com/aqexhu/qReCon/blob/main/Pictures/qReCon_trans_small_v1.png?raw=true)
 
 ## 1. Greeting / purpose
 
