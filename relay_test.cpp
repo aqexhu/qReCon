@@ -17,7 +17,7 @@ struct gpiod_line *relay[RELAY_NUM];
 void delay(int del_ms)
 {
     clock_t start = clock();
-    while (clock() < start + del_ms)
+    while (clock() < start + del_ms*1000)
         ;
 }
 
@@ -48,7 +48,6 @@ void init_gpios()
     if (!chip)
     {
         perror("Open chip failed\n");
-        printf("Buuu");
         exit(0);
     }
     for (short i = 0; i < RELAY_NUM; i++)
