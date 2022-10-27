@@ -4,12 +4,16 @@
 #include <time.h>
 
 #define RELAY_NUM 4
-#define GPIOD_RELAY1 26
-#define GPIOD_RELAY2 19
-#define GPIOD_RELAY3 13
-#define GPIOD_RELAY4 6
+#define GPIOD_B1_RELAY1 21
+#define GPIOD_B1_RELAY2 20
+#define GPIOD_B1_RELAY3 16
+#define GPIOD_B1_RELAY4 5
+#define GPIOD_B2_RELAY1 26
+#define GPIOD_B2_RELAY2 19
+#define GPIOD_B2_RELAY3 13
+#define GPIOD_B2_RELAY4 6
 
-int relay_pins[4] = {GPIOD_RELAY1, GPIOD_RELAY2, GPIOD_RELAY3, GPIOD_RELAY4};
+int relay_pins[8] = {GPIOD_B1_RELAY1, GPIOD_B1_RELAY2, GPIOD_B1_RELAY3, GPIOD_B1_RELAY4, GPIOD_B2_RELAY1, GPIOD_B2_RELAY2, GPIOD_B2_RELAY3, GPIOD_B2_RELAY4};
 
 struct gpiod_chip *chip;
 struct gpiod_line *relay[RELAY_NUM];
