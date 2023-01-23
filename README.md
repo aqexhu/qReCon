@@ -1,6 +1,11 @@
 # AQEX qReCon superior quality 4 channel relay module in a Raspberry Pi HAT form factor
 ## Highest quality control with Raspberry PI
+V1.0
 ![alt text](https://github.com/aqexhu/qReCon/blob/main/Pictures/qReCon_trans_small_v1.png?raw=true)
+
+V2.2
+![alt text](https://github.com/aqexhu/qReCon/blob/main/Pictures/qReConV2.2_smaller_v1.png?raw=true)
+![alt text](https://github.com/aqexhu/qReCon/blob/main/Pictures/qReConV2.2_smaller_v2.png?raw=true)
 
 ## 1. Greeting / purpose
 
