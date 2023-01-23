@@ -22,13 +22,13 @@ New features on v2.2:
 The v2.2 has a DIP switch for selecting polarity and pinset.  
 
 ### 2.2 Pinsets on v2.2:
-
+```
             Set 1     Set 2
 Relay 1     Pin 40    Pin 37
 Relay 2     Pin 38    Pin 35
 Relay 3     Pin 36    Pin 33
 Relay 4     Pin 29    Pin 31
-
+```
 * pin numbers are standard Raspberry Pi 2x20 GPIO header physical pins (nor BCM, neither wiringPi)
 
 ## 3. Installation
