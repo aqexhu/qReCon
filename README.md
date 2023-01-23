@@ -11,6 +11,26 @@ First of all, we would like to express our deeply honest greeting to all of you,
 The qReCon superior quality 4 channel relay module was created, because the mission critical endpoints need reliable and durable control over the connected devices. The qReCon features high-end austrian SCHRACK relays guaranteed for 250VAC@10A high lifespan, with galvanic isolation and top quality screw terminals for easy deployment and managability. On top of that, the Raspberry Pi HAT module form factor delivers easy, plug-and-play installation without efforts.
 Our solution is simple in design with robust build and very good support.
 
+### 2.1 Versions
+
+There are two versions so far of the module: a simpler v1.0 and a more advanced v2.2
+
+New features on v2.2:
+- selectable polarity (ACTIVE HIGH / ACTIVE LOW)
+- selectable pinset (2 sets)
+
+The v2.2 has a DIP switch for selecting polarity and pinset.  
+
+### 2.2 Pinsets on v2.2:
+
+            Set 1     Set 2
+Relay 1     Pin 40    Pin 37
+Relay 2     Pin 38    Pin 35
+Relay 3     Pin 36    Pin 33
+Relay 4     Pin 29    Pin 31
+
+* pin numbers are standard Raspberry Pi 2x20 GPIO header physical pins (nor BCM, neither wiringPi)
+
 ## 3. Installation
 
 ### 3.1 RaspiOS on Raspberry PI binary
