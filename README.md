@@ -16,6 +16,10 @@ First of all, we would like to express our deeply honest greeting to all of you,
 The qReCon superior quality 4 channel relay module was created, because the mission critical endpoints need reliable and durable control over the connected devices. The qReCon features high-end austrian SCHRACK relays guaranteed for 250VAC@10A high lifespan, with galvanic isolation and top quality screw terminals for easy deployment and managability. On top of that, the Raspberry Pi HAT module form factor delivers easy, plug-and-play installation without efforts.
 Our solution is simple in design with robust build and very good support.
 
+Comapitble devices:
+- [qReCon](https://www.aqex.eu/qrecon-raspberry-pi-relay-module-with-4-output.html)
+- [qReCon Flex](https://www.aqex.eu/qrecon-flex-raspberry-pi-relay-module-with-4-output.html)
+
 ### 2.1 Versions
 
 There are two versions so far of the module: a simpler v1.0 and a more advanced v2.2
